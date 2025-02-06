@@ -7,7 +7,7 @@ int main() {
     int a = 1, b = 2;
     int result;
     for(int i = 0; i < 100000000; i++) {
-        result = max(a,b);
+        result = max1(a,b);
     }
     printf("Result: %d\n", result);
     return 0;
